@@ -16,7 +16,7 @@
 
 <br>
 <h2> 📦 Tecnologias usadas neste projeto</h2>
-<h4> Foi usado as seguintes tecnologias para o desenvolvimento deste projeto:</h4>
+<h4> Para o desenvolvimento deste projeto foi usado as seguintes teclogias:</h4>
  <ul>
 <li>HTML</li>
 <li>CSS</li>
