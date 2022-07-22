@@ -2,7 +2,7 @@
 <br>
 <h1>💻 Sobre o projeto:</h1>
 <br>
-<p> Neste projeto construi um formulário de cadastro usando <b>HTML</b>, <b>CSS</b> e <b>Javascript</b>, com intuito de aprendizado e aprimoramento.
+<p> Construi um formulário de cadastro simples usando <b>HTML</b>, <b>CSS</b> e <b>Javascript</b>, com intuito de aprendizado e aprimoramento.
 <p>O formulario possui validaçåo dos campos feito em Javascript.</p>
 <br>
 
