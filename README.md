@@ -2,8 +2,8 @@
 <br>
 <h1>💻 Sobre o projeto:</h1>
 <br>
-<p> Neste projeto construi um formulário de cadastro usando <b>HTML</b>, <b>CSS</b> e <b>Javascript</b>, com intuito de aprendizado.
-<p>O formulario possui validaçåo dos campos feito com Javascript.</p>
+<p> Neste projeto construi um formulário de cadastro usando <b>HTML</b>, <b>CSS</b> e <b>Javascript</b>, com intuito de aprendizado e aprimoramento.
+<p>O formulario possui validaçåo dos campos feito em Javascript.</p>
 <br>
 
 ![ezgif-4-bf84a74d16](https://user-images.githubusercontent.com/105816549/180471167-92ecbdfb-96e3-4467-9768-01a1b6fdc9e3.gif)
