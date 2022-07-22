@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .container div {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .form {
+        border-left: none;
+        border-top: 2px solid #181818;
+        padding-top: 20px;
+        
+    }
+    .form label{
+        padding-bottom: 5px;
+        padding-left: 10px;
+        display: block;
+        flex-wrap: wrap;
+        flex: 1 1 1px;
+    }
+    .form input {
+        border: 3px solid #ffff;
+        border-radius: 10px;
+        display: block;
+        font-size: 14px;
+        width: 300px;
+        padding: 1px;
+        margin: 5px;
+    }
+    .form .btn{
+        padding: 20px;
+    }
+     .container .form-control i {
+        
+        position: absolute;
+        bottom: 7px;
+        left: 140px;
+        visibility: hidden;
+    }
+    .container .form-control small {
+        position: absolute;
+        top: 60px;
+        left: 5px;
+        visibility: hidden;
+    }
+    .container .form-control  {
+        width: 500px;
+        padding-bottom: 20px;
+        margin-bottom: 60px;
+        
+    }
+    
+    
+}
+/* estilo do form */
+.form-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(187, 185, 185);
+    border-radius: 50px;
+    box-shadow: 4px 5px 5px 5px #5100ff39;
+    width: 950px;
+    padding: 20px 40px 20px 40px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+}
+.form{
+    border-left: 0.4px solid  #010101;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-right:30px ;
+    padding-left: 40px;
+}
+h1{
+    font-size: 34px;
+    text-shadow: 1px +1px #1818186b;
+    color: #5200FF;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.formularios{
+    margin-top: 5px ;
+    padding: 5px;
+    position: relative;
+}
+input{
+    border: 3px solid #ffff;
+    border-radius: 10px;
+    display: block;
+    font-size: 14px;
+    width: 300px;
+    padding: 1px;
+}
+label{
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.form-control i{
+    position: absolute;
+    bottom: 5px;
+    left: 140px;
+    visibility: hidden;
+    
+}
+.form-control small{
+     position: absolute;
+     padding: 0px 15px;
+     visibility: hidden;
+     font-size: 14px;
+}
+
+button{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5200FF;
+    color: #ffff;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 10px 10px ;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    color: #ffff;
+    font-size: 38px;
+    gap: 20px;
+}
+
+
+/* error and sucess */
+.formularios.success input{
+    border-color: #22ff68;
+    
+}
+
+.formularios.error input{
+    border-color: #ff3c00;
+}
+.formularios.success i.fa-circle-check{
+    color:#22ff68 ;
+    visibility: visible;
+}
+.formularios.error i.fa-circle-exclamation{
+    color: #ff3c00;
+    visibility: visible;
+}
+.formularios.error small{
+    visibility: visible;
+    color: #ff3c00;
+}

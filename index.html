@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Link icons-->
+    <script src="https://kit.fontawesome.com/9563d0a433.js" crossorigin="anonymous"></script>
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+
+    <main>
+        <div class="titulo">
+            <i class="fa-solid fa-code"></i> 
+            <h2> cadastro de devs.</h2>
+        </div>
+    
+    <section class="container">
+        
+        <div class="form-control">
+            <div class="imagem-content">
+                <img class="imagem" src="img/undraw_outer_space_re_u9vd.svg" alt="imagem Login">
+            </div>
+            <form id="form" class="form">
+                <h1>Criar cadastro</h1>
+
+                <div class="formularios">
+                    <label for="username">Nome do usuario</label>
+                    <input type="text" id="username" placeholder="Digite seu usuario..." >
+                    <i><i class="fa-solid fa-circle-exclamation"></i></i>
+                    <i><i class="fa-solid fa-circle-check"></i></i>
+                    <small></small>
+                </div>
+                
+                <div class="formularios">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email..." >
+                    <i><i class="fa-solid fa-circle-exclamation"></i></i>
+                    <i><i class="fa-solid fa-circle-check"></i></i>
+                    <small> Email nåo existe</small>
+                </div>
+
+                <div class="formularios">
+                    <label for="telefone">Celular</label>
+                    <input type="tel" id="telefone" placeholder=" (xx) xxxxx-xxxx" >
+                    <i><i class="fa-solid fa-circle-exclamation"></i></i>
+                    <i><i class="fa-solid fa-circle-check"></i></i>
+                    <small></small>
+                </div>
+                <div class="formularios">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha..." >
+                    <i><i class="fa-solid fa-circle-exclamation"></i></i>
+                    <i><i class="fa-solid fa-circle-check"></i></i>
+                    <small></small>
+                </div>
+                
+                <div class="formularios">
+                    <label for="password-confirmation">Confirme sua senha</label>
+                    <input type="password" id="password-confirm" placeholder="Digite sua senha novamente..." >
+                    <i><i class="fa-solid fa-circle-exclamation"></i></i>
+                    <i><i class="fa-solid fa-circle-check"></i></i>
+                    <small></small>
+                    
+                </div>
+
+                
+                <div class="btn">
+                    <button type="submit">Enviar</button>
+                </div>
+            
+            </form>
+        </div>
+    </section class="conatainer">
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
